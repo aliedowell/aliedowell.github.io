@@ -1,0 +1,14 @@
+#container:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+    width: 850px;
+    height: 450px;
+}
+
+h1  {
+    color: white;
+    float: inherit;
+
+}
