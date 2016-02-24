@@ -1,0 +1,50 @@
+aside {
+    float: left;
+}
+
+.small-box {
+    width: 300px;
+    padding: 40px;
+}
+
+.small-box h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.small-box p {
+    color: limegreen;
+}
+
+#growing {
+    background: url("../img/featured-image-3.jpg");
+    background-repeat: no-repeat;
+}
+
+#plant {
+    background: url("../img/featured-image-4.jpg");
+    background-repeat: no-repeat;
+}
+
+#land {
+    background: url("../img/featured-image-5.jpg");
+    background-repeat: no-repeat;
+    width: 600px;
+    padding: 50px;
+    float: left;
+}
+
+main {
+    background-color: palegreen;
+    width: 1080px;
+}
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#scaping    {
+    background: url("../img/1.jpg");
+    padding: 50px;
+}
