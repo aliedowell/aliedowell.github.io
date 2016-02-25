@@ -19,11 +19,18 @@ aside {
 #growing {
     background: url("../img/featured-image-3.jpg");
     background-repeat: no-repeat;
+    height: 100px;
+    width: 175px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 #plant {
     background: url("../img/featured-image-4.jpg");
     background-repeat: no-repeat;
+    height: 100px;
+    width: 175px;
+    margin-right: 20px;
 }
 
 #land {
@@ -45,6 +52,35 @@ main {
     clear: both;
 }
 #scaping    {
-    background: url("../img/1.jpg");
-    padding: 50px;
+    background: url("../img/1.jpg") 100%;
+    background-repeat: no-repeat;
+   
+    padding: 200px;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+#scaping p  {
+    padding-top: 50px;
+    font: sans-serif;
+    font-size: 12px;
+     text-transform: uppercase;
+}
+#scaping h1 {
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#scaping h3 {
+    padding-bottom: 50px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#scaping a  {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: limegreen;
 }
