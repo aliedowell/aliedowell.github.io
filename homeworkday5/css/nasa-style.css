@@ -1,12 +1,11 @@
-#space  {
+#space {
     background: url(../img/nasa-background.jpg);
     background-repeat: no-repeat;
     width: 850px;
     height: 450px;
-    
 }
 
-#space h1   {
+#space h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
@@ -15,15 +14,42 @@
     padding-top: 160px;
     padding-bottom: 140px;
 }
-#info   {
-    height:324px;
+
+#info {
+    height: 324px;
     width: 850px;
-    background-color: #f3f3f3;
     padding-top: 20px;
+    background-color: #f3f3f3;
 }
+
 #social {
-    padding: 20px;
-    margin-left: 20px;
     width: 270px;
     height: 324px;
+    float: left;
+    align-items: center;
+}
+
+#office {
+    float: left;
+    width: 270px;
+    height: 324px;
+}
+
+#office h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#office ul {
+    list-style-type: none;
+}
+
+#contact {
+    width: 270px;
+    height: 324px;
+    float: left;
+}
+
+#contact h4 {
+    text-transform: uppercase;
 }
