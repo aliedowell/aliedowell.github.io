@@ -106,8 +106,14 @@ header nav a:hover   {
 .bottles a  {
     text-decoration: none;
     border: solid green;
+    background-color: green;
+    color: white;
     padding: 5px;
     margin-top: 5px;
     top: 15px;
     position: relative;
+}
+.button {
+    background-color: seagreen;
+    color: white;
 }
