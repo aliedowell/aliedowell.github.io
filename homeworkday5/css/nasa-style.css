@@ -1,14 +1,29 @@
-#container:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
+#space  {
+    background: url(../img/nasa-background.jpg);
+    background-repeat: no-repeat;
     width: 850px;
     height: 450px;
+    
 }
 
-h1  {
+#space h1   {
     color: white;
-    float: inherit;
-
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+#info   {
+    height:324px;
+    width: 850px;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+}
+#social {
+    padding: 20px;
+    margin-left: 20px;
+    width: 270px;
+    height: 324px;
 }
