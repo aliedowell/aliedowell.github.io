@@ -1,53 +1,57 @@
-body    {
+body {
     font-family: 'Open Sans', sans-serif;
     width: 1300px;
     margin: auto;
 }
-header  {
+
+header {
     height: 20px;
     padding: 15px;
 }
-header h1  {
+
+header h1 {
     text-transform: uppercase;
     float: left;
-
 }
+
 header nav {
     float: right;
 }
-header nav a   {
+
+header nav a {
     color: black;
     text-decoration: none;
     margin-left: 15px;
 }
 
-header nav a:hover   {
+header nav a:hover {
     font-size: 20px;
     color: coral;
 }
 
-#hero   {
+#hero {
     color: white;
-    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 10%), url("../img/wine-bg.jpg");
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 10%), url("../img/wine-bg.jpg");
     background-position: center;
     height: 500px;
     text-align: center;
     padding-top: 250px;
 }
 
-#hero h2    {
+#hero h2 {
     margin-bottom: 100px;
     font-size: 70px;
 }
+
 #hero p {
     font-family: 'Lora', serif;
-
 }
 
-#about  {
-    width:auto;
+#about {
+    width: auto;
 }
-#about:after    {
+
+#about:after {
     clear: both;
 }
 
@@ -59,57 +63,60 @@ header nav a:hover   {
     padding-left: 50px;
     padding-right: 50px;
 }
-#est h3  {
+
+#est h3 {
     color: lightslategray;
     font-size: 12px;
     padding-top: 100px;
-
 }
-#est h4  {
+
+#est h4 {
     font-family: 'Lora', serif;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
     font-weight: bold;
 }
+
 #blower {
     float: left;
     width: 35%;
 }
 
-#produce    {
+#produce {
     color: white;
-    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 10%), url("../img/wine13.jpg");
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 10%), url("../img/wine13.jpg");
     background-position: center;
     height: 400px;
     text-align: center;
     clear: both;
 }
-#produce h5  {
+
+#produce h5 {
     padding-top: 150px;
     margin-bottom: 40px;
     font-size: 30px;
     font-family: 'Lora', serif;
 }
-#produce p  {
+
+#produce p {
     font-size: 12px;
 }
 
-.bottles    {
+.bottles {
     display: inline-block;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    
 }
+
 .bottles h6 {
     font-family: 'Lora', serif;
     font-size: 18px;
     font-style: italic;
-    
-    
 }
-.bottles a  {
+
+.bottles a {
     text-decoration: none;
     border: solid seagreen;
     background-color: seagreen;
@@ -119,6 +126,7 @@ header nav a:hover   {
     top: 15px;
     position: relative;
 }
+
 .button {
     background-color: seagreen;
     color: white;
