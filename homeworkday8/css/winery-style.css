@@ -1,5 +1,7 @@
 body    {
     font-family: 'Open Sans', sans-serif;
+    width: 1300px;
+    margin: auto;
 }
 header  {
     height: 20px;
@@ -53,13 +55,15 @@ header nav a:hover   {
     float: left;
     text-align: center;
     height: 550px;
-    width: 400px;
-    margin: 0 auto;
+    width: 55%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #est h3  {
     color: lightslategray;
     font-size: 12px;
     padding-top: 100px;
+
 }
 #est h4  {
     font-family: 'Lora', serif;
@@ -69,7 +73,8 @@ header nav a:hover   {
     font-weight: bold;
 }
 #blower {
-    margin: 0 auto;
+    float: left;
+    width: 35%;
 }
 
 #produce    {
@@ -78,6 +83,7 @@ header nav a:hover   {
     background-position: center;
     height: 400px;
     text-align: center;
+    clear: both;
 }
 #produce h5  {
     padding-top: 150px;
