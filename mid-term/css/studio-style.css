@@ -1,0 +1,85 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding-top: 5px;
+}
+
+header h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding-top: 8px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+header nav a:hover {
+    font-size: 20px;
+    color: #f3f3f3;
+}
+
+#hero {
+    background: url("../img/Muse_Top_Cutch_Side_cdae9f86-aa8c-4ad5-8d89-c49cc6b15b7c_2048x2048.jpg");
+    background-repeat: none;
+    height: 500px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 75px;
+    font-family: 'Crimson Text', serif;
+    padding-top: 40px;
+}
+
+#hero p {
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+#hero a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+#hero a:hover {
+    font-size: 25px;
+    color: dimgray;
+}
+#mbs  {
+    padding-top: 30px;
+    height: 440px;
+}
+#tempest    {
+    width: 30%;
+    float: left;
+}
+#about  {
+    float: right;
+    width: 50%;
+    
+}
+#about h4   {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#about p    {
+    font-family: 'Crimson Text', serif;
+}
