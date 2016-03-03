@@ -83,3 +83,10 @@ header nav a:hover {
 #about p    {
     font-family: 'Crimson Text', serif;
 }
+#jumpsuits  {
+    float: left;
+}
+
+.pants  {
+    width: 25%;
+}
