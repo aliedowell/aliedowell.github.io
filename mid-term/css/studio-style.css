@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -43,7 +43,7 @@ header nav a:hover {
 
 #hero h2 {
     font-size: 75px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Vollkorn', serif;
     padding-top: 40px;
 }
 
@@ -55,7 +55,7 @@ header nav a:hover {
 #hero a {
     text-decoration: none;
     color: black;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Vollkorn', serif;
     font-size: 20px;
 }
 
@@ -66,6 +66,7 @@ header nav a:hover {
 #mbs  {
     padding-top: 30px;
     height: 440px;
+    padding-bottom: 20px;
 }
 #tempest    {
     width: 30%;
@@ -81,12 +82,35 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 #about p    {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Vollkorn', serif;
 }
-#jumpsuits  {
+.clearfix:after   {
+    content:'';
+    display: block;
+    clear: both;
+}
+.pants  {
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 40px;
     float: left;
 }
-
-.pants  {
-    width: 25%;
+#jumpsuits h5   {
+    text-align: center;
+}
+#jumpsuits p {
+    text-align: center;
+}
+#dyes   {
+    padding-top: 25px;
+}
+#blue   {
+    float: left;
+}
+#red    {
+    float: right;
+}
+#dyes p {
+    color: slategray;
+    margin: 10px;
 }
