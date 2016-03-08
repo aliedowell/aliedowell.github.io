@@ -35,7 +35,7 @@ header nav a:hover {
 }
 
 #hero {
-    background: url("../img/Muse_Top_Cutch_Side_cdae9f86-aa8c-4ad5-8d89-c49cc6b15b7c_2048x2048.jpg");
+    background: url("../img/top3.jpg");
     background-repeat: none;
     height: 500px;
     text-align: center;
@@ -97,12 +97,15 @@ header nav a:hover {
 }
 #jumpsuits h5   {
     text-align: center;
+    font-weight:700;
+    font-family: 'Vollkorn', serif;
 }
 #jumpsuits p {
     text-align: center;
 }
 #dyes   {
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 #blue   {
     float: left;
@@ -113,4 +116,32 @@ header nav a:hover {
 #dyes p {
     color: slategray;
     margin: 10px;
+}
+.date   {
+    float: right;
+}
+
+#stockist  {
+    background: url(../img/bottom.jpg);
+    clear: both;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+#stockist h6    {
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#stockist a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 15px;
+    font-family: 'Vollkorn', serif;
+}
+
+#stockist a:hover   {
+    color: dimgray;
+    font-size: 30px;
 }
