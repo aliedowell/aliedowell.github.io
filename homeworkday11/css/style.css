@@ -1,0 +1,20 @@
+body    {
+    width: 80%;
+    align-self: center;
+}
+#hero   {
+    background:url(../img/sub_header_home.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+#hero h1    {
+    font-weight: 600;
+    font-size: 30px;
+}
+#hero p {
+    margin-top: 20px;
+}
+
