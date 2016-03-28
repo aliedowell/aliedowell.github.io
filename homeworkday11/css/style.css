@@ -1,20 +1,56 @@
-body    {
-    width: 80%;
+body {
+    width: 100%;
     align-self: center;
 }
-#hero   {
-    background:url(../img/sub_header_home.jpg);
+
+#hero {
+    background: url(../img/sub_header_home.jpg);
     background-repeat: no-repeat;
     color: white;
     height: 300px;
     text-align: center;
     padding-top: 100px;
 }
-#hero h1    {
+
+#hero h1 {
     font-weight: 600;
     font-size: 30px;
 }
+
 #hero p {
     margin-top: 20px;
 }
-
+.icons  {
+    width: 150px;
+}
+#map    {
+    float: left;
+    padding-left: 20px;
+}
+#store  {
+    float: right;
+    padding-left: 213px;
+}
+#lock   {
+    float: right;
+    padding-left: 213px;
+}
+#bus    {
+    float: right;
+    padding-right: 20px;
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #map {
+        float: left;
+    }
+    #store {
+        float: right;
+    }
+    #lock {
+        float: left;
+    }
+    #bus {
+        float: right;
+    }
+}
