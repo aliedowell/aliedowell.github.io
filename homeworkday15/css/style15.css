@@ -1,0 +1,29 @@
+body    {
+    width: 100%;
+    margin: auto;
+}
+#hero   {
+    background: url(../img/wine-bg.jpg);
+    background-repeat: none;
+    background-position: center;
+    color: white;
+}
+#hero img   {
+    align-content: center;
+}
+
+
+
+#produce    {
+    height: 347px;
+    background: url(../img/wine13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+#produce h5 {
+    font-family: 'Georgia';
+    font-size: 32px;
+}
