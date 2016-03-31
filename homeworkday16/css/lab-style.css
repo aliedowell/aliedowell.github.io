@@ -12,23 +12,36 @@ div {
     font-family: 'Roboto Slab', serif;
 }
 #responsive {
-    margin-top: 20px;
+    margin-top: 35px;
     text-align: center;
     background-color: #c1c1c1;
-    height: 278px;
+    height: 270px;
 }
-#responsive h4 {
+h2, h4 {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
     line-height: 39px;
-    margin-top: 50px;
 }
-#responsive p   {
+p   {
     font-size: 14px;
     line-height: 22px;
 }
 
 
 #pencil {
-    padding-top: 30px;
+    padding-top: 35px;
+}
+#villain    {
+    padding-top:35px;
+}
+
+.gray-bg    {
+    background-color: #c1c1c1;
+}
+#creative   {
+    margin-top: 35px;
+    height: 270px;
+}
+#books  {
+    margin-top: 35px;
 }
