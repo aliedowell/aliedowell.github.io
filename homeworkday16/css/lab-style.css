@@ -1,0 +1,34 @@
+body  {
+    background-color: #f3f3f3;
+}
+
+div {
+    height: 577px;
+}
+.yellow-bg  {
+    background-color:  yellow;
+}
+.yellow-bg h2   {
+    font-family: 'Roboto Slab', serif;
+}
+#responsive {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #c1c1c1;
+    height: 278px;
+}
+#responsive h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    line-height: 39px;
+    margin-top: 50px;
+}
+#responsive p   {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+#pencil {
+    padding-top: 30px;
+}
