@@ -1,0 +1,58 @@
+nav a {
+    margin-right: 120px;
+}
+
+nav.transparent {
+    background: none;
+}
+
+.navbar-default {
+    border: none;
+}
+
+#hero {
+    background: url(../img/erjschw3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    width: 1275px;
+    background-color: dodgerblue;
+}
+
+#hero h1 {
+    font-size: 75px;
+    text-align: center;
+    padding-top: 175px;
+    margin-top: 0px;
+}
+
+#hero p {
+    text-align: center;
+}
+
+#hero a {
+    text-align: center;
+}
+#process    {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#arashi {
+    padding-left: 130px;
+}
+#about  {
+    text-align: center;
+}
+
+#kaiman {
+    background: url(../img/mrdsclg1.jpg);
+    background-repeat: no-repeat;
+    background size: cover;
+    background-position: center;
+    height: 555px;
+    margin-top: 50px;
+}
+#natural    {
+    padding-left: 5px;
+}

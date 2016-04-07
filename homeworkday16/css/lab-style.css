@@ -1,47 +1,72 @@
-body  {
+body {
     background-color: #f3f3f3;
+    font-family: Open Sans, serif;
 }
 
 div {
     height: 577px;
 }
-.yellow-bg  {
-    background-color:  yellow;
+
+.yellow-bg {
+    background-color: yellow;
+    text-align: center;
 }
-.yellow-bg h2   {
+
+.yellow-bg h2 {
     font-family: 'Roboto Slab', serif;
+    padding-top: 75px;
+    padding-bottom: 40px;
 }
+
 #responsive {
     margin-top: 35px;
+    padding-top: 35px;
     text-align: center;
     background-color: #c1c1c1;
     height: 270px;
+    width: 270px;
 }
+
 h2, h4 {
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
     line-height: 39px;
 }
-p   {
+
+p {
     font-size: 14px;
     line-height: 22px;
 }
 
-
 #pencil {
     padding-top: 35px;
 }
-#villain    {
-    padding-top:35px;
+
+#villain {
+    padding-top: 35px;
 }
 
-.gray-bg    {
+.gray-bg {
     background-color: #c1c1c1;
 }
-#creative   {
+
+#creative {
     margin-top: 35px;
     height: 270px;
+    width: 270px;
+    padding: 35px;
 }
-#books  {
+
+#books {
     margin-top: 35px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)    {
+    .yellow-bg  {
+        height: 368px;
+    }
+    
+    .gray-bg    {
+        height: 368px;
+    }
 }
