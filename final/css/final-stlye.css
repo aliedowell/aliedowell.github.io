@@ -10,6 +10,7 @@ nav.transparent {
     border: none;
 }
 
+
 #hero {
     background: url(../img/erjschw3.jpg);
     background-repeat: no-repeat;
@@ -71,6 +72,10 @@ nav.transparent {
     align-content: center;
     padding-top: 60px;
 }
+#kaiman a:hover   {
+    font-size: 20px;
+    color: white;
+}
 #shop   {
     text-align: center;
 }
@@ -87,7 +92,7 @@ nav.transparent {
 
 footer  {
     background-color: #f3f3f3;
-    height: 300px;
+    height: 150px;
     text-align: center;
     margin-top: 20px;
 }
