@@ -17,7 +17,6 @@ nav.transparent {
     background-position: center;
     height: 540px;
     width: 1275px;
-    background-color: dodgerblue;
 }
 
 #hero h1 {
@@ -29,6 +28,8 @@ nav.transparent {
 
 #hero p {
     text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color: darkgoldenrod;
 }
 
 #hero a {
@@ -38,11 +39,19 @@ nav.transparent {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+#dye-vat    {
+    text-align: center;
+}
 #arashi {
     padding-left: 130px;
+    text-align: center;
 }
 #about  {
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
     text-align: center;
+    height: 250px;
+    color: darkgoldenrod;
 }
 
 #kaiman {
@@ -52,7 +61,36 @@ nav.transparent {
     background-position: center;
     height: 555px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
-#natural    {
-    padding-left: 5px;
+#kaiman a   {
+    margin-right: 45px;
+    font-size: 25px;
+    color: black;
+    align-content: center;
+    padding-top: 60px;
 }
+#shop   {
+    text-align: center;
+}
+#shop p {
+    font-family: 'Josefin Slab', serif;
+
+}
+#shop a {
+    font-weight: bold;
+}
+#natural   {
+    padding-left: 30px;
+}
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+    #hero   {
+        width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+}*/
