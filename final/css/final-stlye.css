@@ -85,6 +85,16 @@ nav.transparent {
     padding-left: 30px;
 }
 
+footer  {
+    background-color: #f3f3f3;
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer p    {
+    padding-top: 75px;
+}
+
 /*@media (min-width: 768px) and (max-width: 991px) {
     #hero   {
         width: 768px;
